@@ -10,4 +10,14 @@ public class Converter {
         double inches = meters * 39.37;
         return inches;
     }
+
+    public static double cableLengthToMeters(double cableLength) {
+        double meters = cableLength * 185.2;
+        return meters;
+    }
+
+    public static double metersToCableLength(double meters) {
+        double cableLength = meters / 185.2;
+        return cableLength;
+    }
 }
