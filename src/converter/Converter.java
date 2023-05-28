@@ -15,4 +15,9 @@ public class Converter {
         double meters = cableLength * 185.2;
         return meters;
     }
+
+    public static double metersToCableLength(double meters) {
+        double cableLength = meters / 185.2;
+        return cableLength;
+    }
 }
