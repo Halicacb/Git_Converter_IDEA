@@ -11,5 +11,11 @@ public class Main {
 
         double convertedInches = Converter.metersToInches(meters);
         System.out.println(meters + " метрів = " + convertedInches + " дюймів");
+
+        double convertedCableLengthToMeters = Converter.cableLengthToMeters(cableLength);
+        System.out.println(cableLength + " кабельт = " + convertedCableLengthToMeters + " метрів");
+
+        double convertedMetersToCableLength = Converter.metersToCableLength(meters);
+        System.out.println(meters + " метрів = " + convertedMetersToCableLength + " кабельт");
     }
 }
