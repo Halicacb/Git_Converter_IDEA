@@ -7,5 +7,8 @@ public class Main {
 
         double convertedMeters = Converter.inchesToMeters(inches);
         System.out.println(inches + " дюймів = " + convertedMeters + " метрів");
+
+        double convertedInches = Converter.metersToInches(meters);
+        System.out.println(meters + " метрів = " + convertedInches + " дюймів");
     }
 }
